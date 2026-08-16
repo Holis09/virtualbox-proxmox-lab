@@ -1,120 +1,119 @@
-# VirtualBox & Proxmox VE Virtualization Lab
+# Project Virtualisasi – VirtualBox & Proxmox VE
 
-Documentation of a virtualization and networking lab project conducted as part of my S1 Information Systems studies.
+Dokumentasi project praktik virtualisasi dan jaringan yang dilakukan sebagai bagian dari pembelajaran S1 Sistem Informasi.
 
-This project focuses on creating and managing virtual machines using **VirtualBox** and **Proxmox VE**, along with basic system and network configuration using **Alpine Linux**.
+Project ini berfokus pada penggunaan **VirtualBox** dan **Proxmox VE** untuk membuat dan mengelola mesin virtual, serta melakukan konfigurasi sistem dan jaringan menggunakan **Alpine Linux**.
 
-## Project Objectives
+## Tujuan Project
 
-* Learn and practice virtualization concepts.
-* Create and manage virtual machines.
-* Configure basic virtual machine resources.
-* Practice basic networking between virtual machines.
-* Perform system and network testing in a virtual environment.
-* Develop basic troubleshooting skills.
+* Memahami konsep dasar virtualisasi.
+* Membuat dan mengelola mesin virtual.
+* Melakukan konfigurasi sumber daya mesin virtual.
+* Melakukan konfigurasi dasar jaringan pada lingkungan virtual.
+* Melakukan pengujian konektivitas antar mesin virtual.
+* Meningkatkan kemampuan troubleshooting sistem dan jaringan.
 
-## Tools & Technologies
+## Tools & Teknologi
 
-* **VirtualBox** – Desktop virtualization platform
-* **Proxmox VE** – Server virtualization and management platform
-* **Alpine Linux** – Lightweight Linux operating system
-* **Networking** – IP Address configuration and connectivity testing
-* **GNS3** – Network simulation and topology testing
-* **MikroTik** – Basic network configuration and NAT
+* **VirtualBox** – Digunakan untuk membuat dan mengelola mesin virtual.
+* **Proxmox VE** – Digunakan untuk praktik virtualisasi dan pengelolaan mesin virtual.
+* **Alpine Linux** – Digunakan sebagai sistem operasi dalam lingkungan virtual.
+* **MikroTik** – Digunakan untuk praktik konfigurasi jaringan dan NAT.
+* **GNS3** – Digunakan untuk simulasi dan pengujian topologi jaringan.
+* **Networking** – Konfigurasi IP Address dan pengujian konektivitas jaringan.
 
 ## VirtualBox
 
-VirtualBox was used to create and manage virtual machines for system and networking experiments.
+VirtualBox digunakan untuk membuat dan menjalankan mesin virtual dalam praktik sistem dan jaringan.
 
-### Activities
+### Praktik yang Dilakukan
 
-* Creating virtual machines
-* Installing an operating system
-* Configuring CPU and RAM
-* Configuring virtual storage
-* Configuring network adapters
-* Testing network connectivity
-* Performing basic troubleshooting
+* Membuat mesin virtual.
+* Melakukan instalasi sistem operasi.
+* Melakukan konfigurasi CPU dan RAM.
+* Melakukan konfigurasi storage.
+* Melakukan konfigurasi network adapter.
+* Melakukan pengujian konektivitas jaringan.
+* Melakukan troubleshooting dasar pada mesin virtual.
 
 ## Proxmox VE
 
-Proxmox VE was used to practice server virtualization and virtual machine management.
+Proxmox VE digunakan untuk melakukan praktik virtualisasi dan pengelolaan mesin virtual.
 
-### Activities
+### Praktik yang Dilakukan
 
-* Creating and managing virtual machines
-* Configuring virtual machine resources
-* Configuring virtual networking
-* Installing and testing operating systems
-* Testing connectivity between virtual machines
-* Performing basic troubleshooting
+* Membuat dan mengelola mesin virtual.
+* Melakukan konfigurasi sumber daya mesin virtual.
+* Melakukan konfigurasi jaringan virtual.
+* Melakukan instalasi dan pengujian sistem operasi.
+* Melakukan pengujian konektivitas antar mesin virtual.
+* Melakukan troubleshooting dasar pada lingkungan virtual.
 
 ## Alpine Linux
 
-Alpine Linux was used in a virtual environment for system and networking practice.
+Alpine Linux digunakan dalam lingkungan virtual untuk praktik konfigurasi sistem dan jaringan.
 
-### Activities
+### Praktik yang Dilakukan
 
-* Installing Alpine Linux in a virtual machine
-* Performing basic system configuration
-* Configuring IP Address
-* Testing network connectivity
-* Practicing basic troubleshooting
+* Instalasi Alpine Linux pada mesin virtual.
+* Konfigurasi dasar sistem.
+* Konfigurasi IP Address.
+* Pengujian konektivitas jaringan.
+* Troubleshooting dasar sistem dan jaringan.
 
-## Networking
+## Konfigurasi Jaringan
 
-The project also included basic networking configuration and testing.
+Project ini juga mencakup praktik konfigurasi dan pengujian jaringan menggunakan beberapa tools.
 
-### Networking Practice
+### Praktik Jaringan
 
-* IP Address configuration
-* Basic network connectivity testing
-* NAT configuration using MikroTik
-* Network simulation using GNS3
-* Communication testing between virtual machines
+* Konfigurasi IP Address.
+* Pengujian konektivitas jaringan.
+* Konfigurasi NAT menggunakan MikroTik.
+* Simulasi topologi jaringan menggunakan GNS3.
+* Pengujian komunikasi antar perangkat dan mesin virtual.
 
-## Project Documentation
+## Dokumentasi Project
 
-Screenshots and documentation of the virtualization and networking practices will be added to this repository.
+Dokumentasi berupa screenshot dan hasil praktik akan ditambahkan ke repository ini.
 
 ### VirtualBox
 
-*Add VirtualBox screenshots here.*
+Dokumentasi konfigurasi dan hasil praktik VirtualBox.
 
 ### Proxmox VE
 
-*Add Proxmox VE screenshots here.*
+Dokumentasi konfigurasi dan hasil praktik Proxmox VE.
 
 ### Alpine Linux
 
-*Add Alpine Linux screenshots here.*
+Dokumentasi instalasi dan konfigurasi Alpine Linux.
 
-### Network Configuration
+### Jaringan
 
-*Add network configuration screenshots here.*
+Dokumentasi konfigurasi IP Address, NAT, MikroTik, GNS3, dan pengujian konektivitas.
 
 ## Troubleshooting
 
-During the practice, basic troubleshooting was performed for issues related to:
+Selama praktik, dilakukan troubleshooting dasar terhadap beberapa permasalahan, antara lain:
 
-* IP Address configuration
-* Network connectivity
-* Virtual machine configuration
-* Operating system configuration
-* Communication between virtual machines
+* Konfigurasi IP Address.
+* Koneksi jaringan.
+* Konfigurasi mesin virtual.
+* Konfigurasi sistem operasi.
+* Komunikasi antar mesin virtual.
+* Konfigurasi network adapter.
 
-## Project Outcome
+## Hasil Project
 
-This project provided hands-on experience with virtualization, basic networking, operating system configuration, and troubleshooting in a virtual environment.
+Project ini memberikan pengalaman praktik dalam bidang **virtualisasi, jaringan, konfigurasi sistem operasi, dan troubleshooting**.
 
-The project also helped develop practical knowledge of **VirtualBox, Proxmox VE, Alpine Linux, GNS3, and MikroTik**.
+Melalui project ini, saya mendapatkan pengalaman menggunakan **VirtualBox, Proxmox VE, Alpine Linux, GNS3, dan MikroTik** dalam lingkungan praktik.
 
-## Author
+## Tentang Saya
 
 **Nurcholis**
-S1 Information Systems
+S1 Sistem Informasi
 Universitas Multi Data Palembang
 
----
-
-*This project was created for academic learning and practical skill development in IT infrastructure, virtualization, and networking.*
+Project ini dibuat sebagai bagian dari pembelajaran dan pengembangan keterampilan praktis di bidang **IT Hardware, jaringan, virtualisasi, dan troubleshooting**.
